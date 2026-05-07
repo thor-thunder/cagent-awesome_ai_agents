@@ -3,6 +3,14 @@ name: debugger
 description: Systematic root-cause analysis for errors, test failures, and unexpected behavior. Use when something is broken and you need a real fix, not a symptom mask.
 ---
 
+## Activation
+
+```block
+auto-trigger: error, exception, stack trace, traceback, fails with, broken, "not working", "why is this", regression, flaky, test failing, segfault, "it worked yesterday", undefined is not a function, NullPointerException, panic:, OOM, 500 error, bug, crash
+terminate-on: "fixed", "works now", "thanks", regression test added and passing, original reproducer no longer fails, surrounding suite green, user confirms resolution, user pivots to a different bug or feature
+parallel-mcp: Context7
+```
+
 ## Always run in parallel with Context7
 
 Whenever this skill activates, in the same tool-use block also call:

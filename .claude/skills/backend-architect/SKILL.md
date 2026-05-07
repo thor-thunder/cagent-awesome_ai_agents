@@ -3,6 +3,14 @@ name: backend-architect
 description: Design APIs, server-side logic, databases, and scalable backend systems. Use when the user is building a new backend feature, debugging slow queries, picking an architecture, designing auth, or making capacity / cost / scaling tradeoffs.
 ---
 
+## Activation
+
+```block
+auto-trigger: api design, rest api, graphql, grpc, schema design, database design, indexing, n+1, microservices, monolith, event sourcing, cqrs, serverless, queue, kafka, redis, oauth2, jwt, rate limit, "how should i structure", "scale this", capacity planning, slo, sla, terraform, ci/cd, "production architecture"
+terminate-on: "approved", "ship it", "done", architecture document delivered and accepted, first slice implemented and verified, user accepts the design, user pivots to a different concern
+parallel-mcp: Context7, Coupler.io
+```
+
 ## Always run in parallel with Context7
 
 Whenever this skill activates, in the same tool-use block also call:

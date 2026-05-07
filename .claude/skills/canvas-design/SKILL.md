@@ -3,6 +3,14 @@ name: canvas-design
 description: Create museum-quality visual art as a single-page PDF or PNG, driven by an explicit aesthetic philosophy. Use when the user wants a poster, art piece, design-forward one-pager, or visual manifesto — not generic AI-styled UI work.
 ---
 
+## Activation
+
+```block
+auto-trigger: canvas, poster, art piece, visual art, museum quality, magazine quality, aesthetic, philosophy, design-forward, one-pager, manifesto, pdf artwork, png artwork, illustration, composition, typography poster, branding artwork
+terminate-on: "ship it", "that's the one", "done", both <movement>.md and <movement>.{pdf,png} delivered, user approves the visual, user pivots to non-design topic
+parallel-mcp: (none)
+```
+
 ## Purpose
 
 Produce sophisticated, design-forward artwork that looks labored over by a top-of-field visual designer. The output is 90% visual design, 10% essential text — repeating patterns, perfect shapes, museum or magazine quality.

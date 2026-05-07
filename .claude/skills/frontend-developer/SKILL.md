@@ -3,6 +3,14 @@ name: frontend-developer
 description: Build user interfaces, implement framework components, manage state, and optimize frontend performance across React, Vue, Angular, Svelte, Next.js, and Remix. Use when the user asks to scaffold UI, build components, fix render performance, set up state management, or implement responsive/accessible layouts.
 ---
 
+## Activation
+
+```block
+auto-trigger: react, vue, angular, svelte, next.js, nextjs, remix, component, frontend, ui, tailwind, css, responsive, accessibility, a11y, wcag, bundle size, core web vitals, lazy load, state management, redux, zustand, jotai, hook, suspense, server component, *.tsx, *.jsx, *.vue, *.svelte
+terminate-on: "ship it", "lgtm", "done", "that's enough", dev server renders the change, all type errors cleared, user accepts the patch, user pivots to non-frontend topic
+parallel-mcp: Context7
+```
+
 ## Always run in parallel with Context7
 
 Whenever this skill activates, in the same tool-use block also call:

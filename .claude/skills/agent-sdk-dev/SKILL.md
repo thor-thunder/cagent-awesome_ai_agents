@@ -3,6 +3,14 @@ name: agent-sdk-dev
 description: Verify and harden Python or TypeScript apps built with Anthropic's Claude Agent SDK. Use when the user is writing, reviewing, or debugging code that imports `claude-agent-sdk` (Python) or `@anthropic-ai/claude-agent-sdk` (TS), or asks whether their agent setup is correct.
 ---
 
+## Activation
+
+```block
+auto-trigger: claude-agent-sdk, @anthropic-ai/claude-agent-sdk, agent sdk, "is my agent setup correct", agent verifier, anthropic agent, ANTHROPIC_API_KEY, MCP server config in agent code, "verify my agent", system prompt review, tool-use loop, agent permissions
+terminate-on: PASS or PASS WITH WARNINGS or FAIL report delivered, user accepts the report, all blocker findings remediated and re-verified, user pivots away from the SDK
+parallel-mcp: (none)
+```
+
 ## Purpose
 
 Comprehensively validate Claude Agent SDK applications: confirm the SDK is installed and current, the integration follows documented patterns, and the app handles real-world failure modes. Prioritize SDK functionality and best practices over generic style concerns (no PEP 8 nits, no import-order religion).

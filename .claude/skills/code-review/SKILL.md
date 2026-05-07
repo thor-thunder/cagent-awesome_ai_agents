@@ -3,6 +3,14 @@ name: code-review
 description: Comprehensive code review across quality, security, performance, testing, and documentation dimensions. Use after a diff is staged or a PR is open and the user wants concrete, actionable feedback.
 ---
 
+## Activation
+
+```block
+auto-trigger: review this, code review, pr review, review the diff, review the changes, "what do you think of", quality check, security review, performance review, /pr-review, branch comparison, "before merging", git diff present
+terminate-on: "ship it", "lgtm", "approved", "merge it", all blocker findings addressed and re-checked, user marks review complete, user pivots to a different PR or task
+parallel-mcp: Context7, Coupler.io
+```
+
 ## Always run in parallel with Context7
 
 Whenever this skill activates, in the same tool-use block also call:

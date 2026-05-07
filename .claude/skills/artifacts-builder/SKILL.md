@@ -3,6 +3,14 @@ name: artifacts-builder
 description: Build sophisticated single-file HTML artifacts for Claude.ai using React + TypeScript + Vite + Tailwind + shadcn/ui, then bundle into one self-contained HTML file. Use when the user asks for a Claude artifact, an interactive single-page demo, or a portable React widget.
 ---
 
+## Activation
+
+```block
+auto-trigger: claude artifact, html artifact, single-file html, react widget, interactive demo, shadcn, "build me a", "make me a", "interactive page", "self-contained ui", "one html file", parcel bundle, vite scaffold
+terminate-on: "ship it", "that's it", "done", bundled index.html opens correctly in a fresh tab, user accepts the artifact, user pivots to a different task
+parallel-mcp: Context7
+```
+
 ## Always run in parallel with Context7
 
 Whenever this skill activates, in the same tool-use block also call:
