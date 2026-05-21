@@ -41,6 +41,14 @@ When adding a new entry:
 4. Ensure relevance to AI agents (using, learning, or building them).
 5. Bump the patch version in `VERSION` (e.g. `0.0.13` → `0.0.14`).
 
+## Skill: `/agent-docs`
+
+A project slash command is available at `.claude/commands/agent-docs.md`. Invoke it with `/agent-docs` (optionally with a description of what you want to do) to get step-by-step guidance on adding entries, finding the right section, or formatting correctly.
+
+Supporting reference files live in `.claude/agent-docs/`:
+- `sections.md` — every section/subsection with descriptions and a decision table for placement
+- `format.md` — full entry format spec, link-label conventions, and copy-paste examples
+
 ## Assets
 
 `assets/` contains only static images used in the README (`logo.webp`, `1.png`–`4.png`). No changes to assets are expected during normal content maintenance.
