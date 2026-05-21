@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository overview
 
-This is a documentation-only "awesome list" repository — there is no code, no build system, and no test suite. The entire content is `README.md`, a curated, community-maintained directory of AI agent tools, resources, and projects, versioned in `VERSION` (current: `0.0.13`).
+This is a documentation-only "awesome list" repository — there is no code, no build system, and no test suite. The entire content is `README.md`, a curated, community-maintained directory of AI agent tools, resources, and projects. The current patch version is tracked in `VERSION`.
 
 ## Structure of README.md
 
@@ -20,13 +20,13 @@ The README is organized into three top-level sections:
 Every entry follows this pattern:
 
 ```
-- [Name](primary_url) - One-sentence description [| [resource_label](url) ...]
+- [Name](primary_url) - One-sentence description. [label](url) | [label](url)
 ```
 
-Supplementary links (github, website, docs, discord, demo, etc.) are appended with pipe separators, e.g.:
+The description is followed by optional supplementary links (github, website, docs, discord, demo, etc.) separated by ` | `. Example:
 
 ```
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT provides accessible AI tools for building and using AI agents... [github](https://github.com/Significant-Gravitas/AutoGPT) | [github profile](https://github.com/Significant-Gravitas)
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT provides accessible AI tools for building and using AI agents, offering Forge for agent creation, agbenchmark for performance evaluation, and a user-friendly UI. [github](https://github.com/Significant-Gravitas/AutoGPT) | [github profile](https://github.com/Significant-Gravitas)
 ```
 
 Entries within each subsection are sorted **alphabetically by name**.
